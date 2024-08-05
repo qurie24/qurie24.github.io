@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="300"
+   height="300.00784"
+   viewBox="0 0 300 300.00784"
+   sodipodi:docname="appqinfo_logo.pdf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1"
+     transform="translate(0,0.00392218)">
+    <path
+       id="path1"
+       d="M 32.949,32.949 C 65.125,0.777 113.512,-8.848 155.551,8.562 197.59,25.977 225,66.996 225,112.5 H 112.5 Z"
+       style="fill:#1e285e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1.3333333)" />
+    <path
+       id="path2"
+       d="M 0,112.5 C 0,82.664 11.852,54.047 32.949,32.949 L 112.5,112.5 Z"
+       style="fill:#1f3679;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1.3333333)" />
+    <path
+       id="path3"
+       d="M 192.051,192.051 C 159.875,224.223 111.488,233.848 69.449,216.438 27.41,199.023 0,158.004 0,112.5 h 112.5 z"
+       style="fill:#7f3366;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1.3333333)" />
+    <path
+       id="path4"
+       d="m 225,112.5 c 0,29.84 -11.852,58.453 -32.949,79.551 L 112.5,112.5 Z"
+       style="fill:#741350;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1.3333333)" />
+    <text
+       id="text4"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,18.433645,163.31907)"><tspan
+         style="font-variant:normal;font-weight:700;font-size:43.6754px;font-family:'Liberation Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0 31.540953 58.219608 84.898262 118.87036 131.00478 157.68344 172.22768"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4">AppQInfo</tspan></text>
+  </g>
+</svg>
