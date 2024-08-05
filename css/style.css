@@ -10,31 +10,7 @@ body {
   background-color: #F4F4F6;
 }
 
-/* nav {
-  background-image: url('img/bg.png'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #2C4EB5;
-} */
-
-/* make background with opacity and fixed */
-/* @media (min-width: 800px) { 
-  nav::after { 
-    content: ""; 
-    background: url(img/bg.png);  
-    background-size: cover; 
-    opacity: 0.1; 
-    top: 0; 
-    left: 0; 
-    bottom: 0; 
-    right: 0; 
-    position: fixed; 
-    z-index: -1; 
-  } 
-}  */
-
-/* header and footer areas */
+/* Menu and footer */
 .menu {
   padding: 10px;
   width: 100%;
@@ -66,91 +42,69 @@ body {
 
 .menu a:hover {
   background-color: #2C4EB5;
-  /* Slightly lighter blue for hover effect */
 }
 
 .menu a:active {
   background-color: #002244;
-  /* Darker blue for click effect */
 }
 
 .menu,
-.article-meta,
+/* .article-meta, */
 footer {
   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  .menu a { 
-    padding: 10px; 
-    background-color: #1E285E; 
-    width: 30vh; 
+  .menu {
+    padding: 0;
   }
-}
 
-.title {
-  font-size: 100%;
-  text-align: center;
+  .menu li {
+    display: block;
+    width: 70%;
+    padding: 5px 0;
+    margin: auto;
+  }
+
+  .menu a {
+    display: block;
+    width: calc(100% - 40px);
+    /* Same border width as in normal state */
+    margin: 0 auto;
+    background-color: #1E285E;
+    padding: 10px 20px;
+  }
 }
 
 footer a {
   text-decoration: none;
 }
 
-hr {
-  border: 1px solid;
-  color: #000;
-}
-
-/* misc elements */
-img,
-iframe,
-video {
-  max-width: 100%;
-  display: block;
+/* Top logo */
+.logo-top {
+  max-width: 10%;
+  min-width: 200px;
+  float: centre;
+  padding: 10px;
   margin: 0 auto;
+  display: block;
 }
 
 main {
   hyphens: auto;
 }
 
-blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid #ccc;
-  padding: 3px 1em 3px;
-}
-
-table {
-  margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
-}
-
-table thead th {
-  border-bottom: 1px solid #ddd;
-}
-
-th,
-td {
-  padding: 5px;
-}
-
-thead,
-tfoot,
-tr:nth-child(even) {
-  background: #eee;
-}
-
+/* Links */
 a {
   color: #002244;
-  text-decoration: underline gray; 
+  text-decoration: underline gray;
 }
+
 a:hover {
   color: #B95094;
 }
 
-
+/* Line */
 hr {
   display: block;
   height: 1px;
@@ -160,6 +114,7 @@ hr {
   padding: 0;
 }
 
+/* Headers */
 h1 {
   line-height: 1.2;
   font-size: 150%;
@@ -172,7 +127,8 @@ h2 {
   text-align: left;
 }
 
-.description {
+/* Main text */
+.main-text {
   width: 705px;
   margin: auto;
   line-height: 1.5;
@@ -183,7 +139,7 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-  .description {
+  .main-text {
     width: 90%;
     margin: auto;
     line-height: 1.5;
@@ -194,7 +150,7 @@ h2 {
   }
 }
 
-/* grid of speakers */
+/* Grid of speakers */
 .speakers-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -242,8 +198,7 @@ h2 {
   font-style: italic;
 }
 
-/* Programme */
-
+/* Program table */
 .program-container {
   display: flex;
   flex-wrap: wrap;
@@ -297,7 +252,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 90%;
+    width: calc(100% - 20vh);
     margin: auto;
   }
 
@@ -325,7 +280,7 @@ h2 {
   .program-table td:before {
     content: attr(data-label);
     position: absolute;
-    left: 1%;
+    left: 6%;
     width: 45%;
     padding-right: 10px;
     white-space: nowrap;
@@ -338,7 +293,6 @@ h2 {
 }
 
 /* Register button */
-
 .button-container {
   display: flex;
   justify-content: center;
@@ -368,9 +322,7 @@ h2 {
 }
 
 /* Map */
-
 .map {
-  /* width: 700px; */
   margin: auto;
   height: 40vh;
   padding: 50px;
@@ -390,7 +342,7 @@ h2 {
   }
 }
 
-/* grid of speakers */
+/* Grid of logos */
 .logo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
