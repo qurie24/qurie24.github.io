@@ -37,16 +37,14 @@ body {
 /* header and footer areas */
 .menu {
   padding: 10px;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
-/* @media screen and (max-width: 768px) {
-  .menu { padding: 10px; background-color: #F4F4F6; width: 100%; margin: auto;}
-} */
 .menu li {
-  display: inline-block;
-  padding: 10px;
+  display: inline-flex;
+  vertical-align: top;
+  padding: 2px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -80,6 +78,14 @@ body {
 .article-meta,
 footer {
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .menu a { 
+    padding: 10px; 
+    background-color: #1E285E; 
+    width: 10vh; 
+  }
 }
 
 .title {
