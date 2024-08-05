@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> AppQInfo symposium</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<nav>
+    <img src="img/logo.svg" style="max-width:10%;min-width:200px;float:centre;padding: 10px;" alt="logo" />
+    <ul class="menu">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="program.html">Program</a></li>
+
+        <li><a href="where.html">Where</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+    <hr />
+</nav>
+
+<body>
+    <div class="description">
+        <h1>Venue</h1>
+
+        <div class="map" , id="map">
+            <script>
+                var map = L.map('map').setView([52.21177, 20.98206], 15);
+
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map);
+
+                L.marker([52.21177, 20.98206]).addTo(map)
+                    // .bindPopup('Here we are')
+                    .openPopup();
+            </script>
+        </div>
+
+        <a href="https://maps.app.goo.gl/N8tZiuPDLoZGQLGJ8" target="_blank">
+            <div style="font-size: 110%;">
+                Faculty of Mathematics, Informatics, and Mechanics, University of Warsaw
+            </div>
+            Stefana Banacha 2, 02-097 Warszawa
+        </a>
+
+        <!-- <hr> -->
+
+        <!-- <h1>Getting there</h1>
+
+        <h2>By train/bus:</h2>
+
+        <p>
+            For train travel, the main station is Warszawa Centralna (Warsaw Central),
+            with connections to major European cities. Second biggest station,
+            Warszawa Zachodnia (Warsaw West), is located closer to the
+            facoulty, so if you have possibilty you should choose it over
+            Warszawa Centralna
+        </p>
+        <p>
+            Intercity buses arrive mostly at Warszawa Zachodnia (Warsaw West). 
+            <i>FlixBus</i> and <i>Polskibus</i> provide extensive bus routes to Warsaw.
+        </p>
+
+        <p>Once you arrive at the train or bus station, we highly recommend taking public 
+        transport (tram or bus). To get to know which one to choose use Google or Apple Maps. 
+        We also recoment polish app <i>JakDojade</i>, which can naviagete you to your destiantion
+        and it also allows you to buy ticket.</p>
+
+        <h2>By plane:</h2>
+        <p>There are two airports in Warsaw: Warsaw Chopin Airport, which is 
+        located 40 min from the City Center, and Warsaw Modlin Airport, 
+        which is located approx. 1.5h from the City Center. </p>
+
+        <p>There is a direct bus from Warsaw Chopin Airport to the conference 
+        place: bus number 178. You can buy the ticket in a bus (card only) or 
+        in the app <i>JakDojade</i>.</p>
+
+        <p>From Warsaw Modlin you can use public transport (bus + train) to get to
+        Warszawa Centralna station, and then use bus or tram to get to the conference. </p>
+
+        In both cases you can use taxi, which cost approx. ...  
+
+        <h2>By car</h2>
+
+        There is a paid parking 2 min away from the conference place. 
+
+        <hr>
+
+        <h1>Public transport</h1>
+
+        <p>For traveling around the city we recommend you to use trams, buses, metro and local trains, which all have the same ticket system. There is a possibility of buying single fare ticekts as well as a 72h ticket, which is a perfect fit for our three-day conference. You can purchuse it in the ticket machines avaiable in every metro station and on some of the tram/bus stops. </p> -->
+    </div>
+</body>
+<footer>
+    <hr>
+    ©2024 <a = href="https://appqinfo-itn.eu/">AppQInfo</a>. All right reserved.
+</footer>
+
+</html>
