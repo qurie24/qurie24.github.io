@@ -132,6 +132,10 @@ h2 {
   text-align: left;
 }
 
+img {
+  display: block;
+}
+
 /* Main text */
 .main-text {
   width: 705px;
@@ -160,10 +164,10 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
-  padding: 20px;
-  width: 768px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
   align-items: center;
 }
 
