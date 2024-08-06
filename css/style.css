@@ -6,7 +6,7 @@ body {
   width: 100%;
   margin: auto;
   line-height: 1.8em;
-  color: #1E285E;
+  color: #3D204E;
   background-color: #F4F4F6;
 }
 
@@ -27,7 +27,7 @@ body {
 
 .menu a {
   text-decoration: none;
-  background: #1E285E;
+  background: #3D204E;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -41,12 +41,12 @@ body {
 }
 
 .menu a:hover {
-  background-color: #2C4EB5;
+  background-color: #F9BFF9;
 }
 
-.menu a:active {
-  background-color: #002244;
-}
+/* .menu a:active {
+  background-color: #7F5E8D;
+} */
 
 .menu,
 /* .article-meta, */
@@ -59,22 +59,23 @@ footer {
 
 @media screen and (max-width: 768px) {
   .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 0;
+    width: 90%;
   }
-
+  
   .menu li {
-    display: block;
-    width: 50%;
-    padding: 5px 0;
-    margin: auto;
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    padding: 5px;
   }
 
   .menu a {
     display: block;
-    width: calc(100% - 40px);
-    /* Same border width as in normal state */
-    margin: 0 auto;
-    background-color: #1E285E;
+    width: 100%;
     padding: 10px 20px;
   }
 }
@@ -100,7 +101,7 @@ main {
 
 /* Links */
 a {
-  color: #002244;
+  color: #3D204E;
   text-decoration: underline gray;
 }
 
@@ -224,7 +225,7 @@ h2 {
 }
 
 .day-title {
-  background-color: #1E285E;
+  background-color: #3D204E;
   color: white;
   padding: 10px;
   text-align: center;
@@ -249,7 +250,7 @@ h2 {
 }
 
 .program-table tr:nth-child(even) {
-  background-color: #f5dceb;
+  background-color: #FDECFD;
 }
 
 .program-table td[data-label="Time"] {
