@@ -65,7 +65,7 @@ footer {
     padding: 0;
     width: 90%;
   }
-  
+
   .menu li {
     display: inline-block;
     width: 45%;
@@ -129,6 +129,12 @@ h1 {
 h2 {
   line-height: 1.2;
   font-size: 130%;
+  text-align: left;
+}
+
+h3 {
+  line-height: 1.2;
+  font-size: 110%;
   text-align: left;
 }
 
