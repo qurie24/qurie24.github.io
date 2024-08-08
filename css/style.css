@@ -443,13 +443,14 @@ footer {
   flex-grow: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .footer-content {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .footer-logos {
     margin-bottom: 10px;
+    display: none;
   }
 
   .left-logos {
@@ -462,6 +463,7 @@ footer {
   }
 
   .right-logos {
-    order: 3;
+    order: 1;
   }
 }
+
