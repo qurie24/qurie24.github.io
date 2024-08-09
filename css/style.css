@@ -138,6 +138,12 @@ h3 {
   text-align: left;
 }
 
+strong{
+  line-height: 1.2;
+  font-size: large;
+  /* text-align: left; */
+}
+
 img {
   display: block;
   margin: auto;
@@ -466,4 +472,3 @@ footer {
     order: 1;
   }
 }
-
