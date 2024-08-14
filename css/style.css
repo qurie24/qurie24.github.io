@@ -10,6 +10,20 @@ body {
   background-color: #F4F4F6;
 }
 
+/* nav {
+  background-image: url('../img/Warszawa.svg');
+  background-size: auto;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  width: 100%;
+}
+
+@media screen and (max-width: 966px) {
+  nav {
+    background-size: 1000px;
+  }
+} */
+
 /* Menu and footer */
 .menu {
   padding: 10px;
@@ -138,7 +152,7 @@ h3 {
   text-align: left;
 }
 
-strong{
+strong {
   line-height: 1.2;
   font-size: large;
   /* text-align: left; */
@@ -153,6 +167,7 @@ img {
   margin-top: -15px;
   display: flex;
 }
+
 .image-container img {
   max-width: 120px;
   height: auto;
