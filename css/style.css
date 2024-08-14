@@ -127,7 +127,7 @@ h1 {
 }
 
 h2 {
-  line-height: 1.2;
+  line-height: 1;
   font-size: 130%;
   text-align: left;
 }
@@ -147,6 +147,15 @@ strong{
 img {
   display: block;
   margin: auto;
+}
+
+.image-container {
+  margin-top: -15px;
+  display: flex;
+}
+.image-container img {
+  max-width: 120px;
+  height: auto;
 }
 
 /* Main text */
@@ -332,7 +341,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 100px;
 }
 
 .register-button {
