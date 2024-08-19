@@ -24,11 +24,11 @@ nav {
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   nav {
     background-size: 0px;
   }
-}
+} */
 
 /* Menu and footer */
 .menu {
