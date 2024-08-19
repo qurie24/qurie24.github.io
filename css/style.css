@@ -10,8 +10,8 @@ body {
   background-color: #F4F4F6;
 }
 
-/* nav {
-  background-image: url('../img/Warszawa.svg');
+nav {
+  background-image: url('../img/bg/warsaw_skyline.svg');
   background-size: auto;
   background-position: bottom;
   background-repeat: repeat-x;
@@ -20,9 +20,15 @@ body {
 
 @media screen and (max-width: 966px) {
   nav {
-    background-size: 1000px;
+    background-size: 966px;
   }
-} */
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    background-size: 0px;
+  }
+}
 
 /* Menu and footer */
 .menu {
