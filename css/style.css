@@ -10,6 +10,7 @@ body {
   background-color: #F4F4F6;
 }
 
+/* Backgroud image in navigation */
 nav {
   background-image: url('../img/bg/warsaw_skyline.svg');
   background-size: auto;
@@ -34,6 +35,9 @@ nav {
 .menu {
   padding: 10px;
   width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin: auto;
 }
 
@@ -68,15 +72,6 @@ nav {
   background-color: #7F5E8D;
 } */
 
-.menu,
-/* .article-meta, */
-footer {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin: auto;
-}
-
 @media screen and (max-width: 768px) {
   .menu {
     display: flex;
@@ -100,6 +95,13 @@ footer {
   }
 }
 
+footer {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
 footer a {
   text-decoration: none;
   padding: 0;
@@ -115,9 +117,9 @@ footer a {
   display: block;
 }
 
-main {
+/* main {
   hyphens: auto;
-}
+} */
 
 /* Links */
 a {
@@ -132,7 +134,7 @@ a:hover {
 /* Line */
 hr {
   display: block;
-  height: 1px;
+  height: 0px;
   border: 0;
   border-top: 1px solid #003321;
   margin: 1em 0;
@@ -147,7 +149,7 @@ h1 {
 }
 
 h2 {
-  line-height: 1;
+  line-height: 1.2;
   font-size: 130%;
   text-align: left;
 }
@@ -164,13 +166,14 @@ strong {
   /* text-align: left; */
 }
 
+/* Images */
 img {
   display: block;
   margin: auto;
 }
 
 .image-container {
-  margin-top: -15px;
+  /* margin-top: 0px; */
   display: flex;
 }
 
@@ -186,19 +189,13 @@ img {
   line-height: 1.5;
   font-size: 110%;
   text-align: justify;
-  padding: 20px;
+  padding: 10px;
   text-justify: inter-word;
 }
 
 @media screen and (max-width: 768px) {
   .main-text {
     width: 90%;
-    margin: auto;
-    line-height: 1.5;
-    font-size: 110%;
-    text-align: justify;
-    /* padding: 20px; */
-    text-justify: inter-word;
   }
 }
 
@@ -235,7 +232,15 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
-  border-radius: 90%;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #F4F4F6;
+  border-width: 7px;
+  transition: border-color 0.3s ease;
+}
+
+.speaker img:hover {
+  border-color: #F9BFF9;
 }
 
 .speaker-info {
@@ -369,7 +374,7 @@ img {
   display: inline-block;
   padding: 12px 24px;
   background-color: #72124E;
-  color: white;
+  color: #F4F4F6;
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
@@ -379,17 +384,13 @@ img {
 }
 
 .register-button:hover {
-  background-color: #7E3265;
-}
-
-.register-button:active {
-  background-color: #002244;
+  background-color: #F9BFF9;
 }
 
 /* Map */
 .map {
   margin: auto;
-  height: 40vh;
+  height: 480px;
   padding: 50px;
   margin-bottom: 20px;
 }
@@ -398,11 +399,7 @@ img {
   .map {
     width: 100%;
     margin: auto;
-    line-height: 1.5;
-    font-size: 24px;
-    text-align: justify;
     padding: 20px;
-    text-justify: inter-word;
     margin-bottom: 20px;
   }
 }
