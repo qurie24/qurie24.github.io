@@ -550,12 +550,20 @@ footer {
   background-color: #FDECFD;
 }
 
+.abstract-table-number {
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  width: 3em;
+  height: 4em;
+}
+
 .abstract-table-name {
   text-align: left;
   font-weight: normal;
   font-size: large;
   height: 4em;
-  width: 15em;
+  width: 13em;
 }
 
 .abstract-table-title {
@@ -563,4 +571,18 @@ footer {
   font-weight: normal;
   font-size: large;
   height: 4em;
+}
+
+@media (max-width: 700px) {
+
+  .abstract-table-number,
+  .abstract-table-name,
+  .abstract-table-title {
+    height: 6em;
+  }
+
+  .abstract-table-name {
+    width: 5em;
+    padding-right: 10px;
+  }
 }
