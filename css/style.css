@@ -344,15 +344,15 @@ img {
   .program-table td {
     border: none;
     position: relative;
-    padding-left: 30%;
+    padding-left: 110px;
   }
 
   .program-table td:before {
     content: attr(data-label);
     position: absolute;
     left: 3%;
-    width: 45%;
-    padding-right: 10px;
+    width: 50%;
+    padding-right: 1px;
     white-space: nowrap;
     font-weight: bold;
   }
@@ -585,4 +585,8 @@ footer {
     width: 5em;
     padding-right: 10px;
   }
+}
+
+.coffee {
+  color:#ba7aba;
 }
