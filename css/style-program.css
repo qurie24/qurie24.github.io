@@ -1,0 +1,110 @@
+/* Program table */
+.program-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 705px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.day-schedule {
+    flex: 1;
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.day-title {
+    background-color: #3D204E;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.program-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.program-table th,
+.program-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.program-table th {
+    background-color: #f2f2f2;
+}
+
+.program-table tr:nth-child(even) {
+    background-color: #FDECFD;
+}
+
+.program-table td[data-label="Time"] {
+    width: 200px;
+    font-weight: bold;
+}
+
+.coffee {
+    color: #ba7aba;
+}
+
+@media screen and (max-width: 768px) {
+    .program-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .day-schedule {
+        flex: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .program-table,
+    .program-table tbody,
+    .program-table tr,
+    .program-table td {
+        display: block;
+    }
+
+    .program-table tr {
+        margin-bottom: 10px;
+    }
+
+    .program-table td {
+        border: none;
+        position: relative;
+        padding-left: 110px;
+    }
+
+    .program-table td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 3%;
+        width: 50%;
+        padding-right: 1px;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    .program-table td[data-label="Time"] {
+        width: 100%;
+    }
+}

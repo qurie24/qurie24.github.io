@@ -1,0 +1,63 @@
+/* Grid of logos */
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 30px;
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+}
+
+.logo a {
+    display: flex;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo-grid-sponsors {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 50px;
+    padding: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-grid-sponsors {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 50px;
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+.logo-sponsors {
+    display: flex;
+    height: 100%;
+}
+
+.logo-sponsors a {
+    display: flex;
+    width: 100%;
+}
+
+.logo-sponsors img {
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+/* Map */
+.map {
+    margin: auto;
+    height: 480px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .map {
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
