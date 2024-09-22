@@ -50,11 +50,19 @@
     width: 13em;
 }
 
-.abstract-table-title {
+/* .abstract-table-title {
     text-align: left;
-    font-weight: normal;
+    font-weight: bold;
     font-size: large;
     height: 4em;
+} */
+
+.abstract-table-title a {
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    height: 4em;
+    text-decoration: none;
 }
 
 @media (max-width: 700px) {

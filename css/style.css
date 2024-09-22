@@ -45,8 +45,8 @@ nav {
   display: inline-flex;
   vertical-align: top;
   padding: 2px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .menu a {
