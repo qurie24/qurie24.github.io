@@ -78,3 +78,10 @@
         padding-right: 10px;
     }
 }
+
+.abstract-number {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: -1em;
+}
