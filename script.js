@@ -9,19 +9,8 @@ document.getElementById('password-input').addEventListener('keydown', function (
 async function checkPassword() {
     const userPassword = document.getElementById('password-input').value;
     if (userPassword) {
-        // Hash the entered password
-        const hashedPassword = await hashPassword(userPassword);
-
-        checkWebsite(hashedPassword + ".html")
+        checkWebsite(userPassword + ".html")
     }
-}
-
-// Function to hash the password using SHA-256
-async function hashPassword(password) {
-    const encoder = new TextEncoder();
-    const data = encoder.encode(password);
-    const hash = await crypto.subtle.digest('SHA-256', data);
-    return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
 async function checkWebsite(url) {
@@ -36,7 +25,6 @@ async function checkWebsite(url) {
         }
     } catch (error) {
         // Handle any errors (e.g., network issues, CORS, etc.)
-        console.error('Error:', error.message);
-        alert('Error: The website does not exist or cannot be reached.');
+        alert('Wrong password!');
     }
 }
