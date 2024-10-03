@@ -39,29 +39,24 @@
         <h1>Museum</h1>
 
         <p>
-            Maria Skłodowska-Curie was born at 16 Freta Street, where today you’ll find a museum dedicated to her life
-            and work. Your task is to visit this unique place, where you will not only learn about her scientific
-            achievements but also delve into her personal life.
+            Take a look at these photos. Each holds numbers that will help you uncover the mystery. Hidden elements in
+            the museum reveal fragments of a code you need to collect.
         </p>
 
-        <img src="img/MUSEUM.jpg" style="width: 100%; margin-top: 2em; margin-bottom: 2em;">
+        <img src="img/MUSEUMp1.jpg" style="width: 100%; margin-top: 2em; margin-bottom: 2em;">
+        <img src="img/MUSEUMp2.jpg" style="width: 100%; margin-top: 2em; margin-bottom: 2em;">
+        <img src="img/MUSEUMp3.jpg" style="width: 100%; margin-top: 2em; margin-bottom: 2em;">
 
         <p>
-            How to get there?
-
-        <ul>
-            <li>Tram 35 or 15 from Wawelska 03 stop, get off at Ratusz Arsenał, and then a 10-minute walk down Długa
-                Street.</li>
-            <li>Alternatively: Bus 182, 187, or 523 from Wawelska 05, switch to the metro (direction Młociny), get off
-                at Ratusz Arsenał, and then a 10-minute walk down Długa Street.
-                Trust Google Maps—it’s your guide in this urban jungle.</li>
-        </ul>
-
+            After viewing the exhibition, proceed to the next task by entering the secret code:
         </p>
 
-        <div class="button-container">
-            <a href="MUSEUM2.html" class="register-button">NEXT</a>
+        <div class="protected">
+            <input id="password-input" placeholder="ABCDEFGHIJ">
+            <button onclick="checkPassword()" class="submit-button">Submit</button>
         </div>
+
+        <script src="script.js"></script>
     </div>
 
 </body>
